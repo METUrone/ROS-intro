@@ -10,8 +10,7 @@ project(agitr)
 
 find_package(catkin REQUIRED COMPONENTS 
 	roscpp 
-	geometry_msgs 
-	turtlesim 
+	geometry_msgs
 	costum_msgs
 	message_generation)
 ## System dependencies are found with CMake's conventions
@@ -119,20 +118,8 @@ include_directories(
  include
  ${catkin_INCLUDE_DIRS}
 )
-add_executable(hello hello.cpp)
-target_link_libraries(hello ${catkin_LIBRARIES})
-add_executable(pubvel pubvel.cpp)
-target_link_libraries(pubvel ${catkin_LIBRARIES})
-add_executable(pose pose.cpp)
-target_link_libraries(pose ${catkin_LIBRARIES})
-add_executable(log log.cpp)
-target_link_libraries(log ${catkin_LIBRARIES})
 add_executable(hw1pub hw1.cpp)
 target_link_libraries(hw1pub ${catkin_LIBRARIES})
-add_executable(param_test param_test.cpp)
-target_link_libraries(param_test ${catkin_LIBRARIES})
-add_executable(service_test service_sample.cpp)
-target_link_libraries(service_test ${catkin_LIBRARIES})
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
 #   src/${PROJECT_NAME}/agitr.cpp
