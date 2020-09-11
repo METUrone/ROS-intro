@@ -30,12 +30,13 @@ int main(int argc, char* argv[]){
 
     ros::Rate rate(2);
     ROS_INFO_STREAM("Hello, ROS!");
+    meturone::answer msg;
     
     
     while(ros::ok()){
         
         
-        meturone::answer msg;
+        
         msg.n1 = ans1;
 	msg.n2 = ans2;
         
