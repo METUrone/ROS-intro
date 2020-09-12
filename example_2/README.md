@@ -1,0 +1,1 @@
+Our second example is very similar to the first one. But in this example, we are using services for communication. Again, meturone_egitim package gives us a random array. We are manipulating this and return another data.
