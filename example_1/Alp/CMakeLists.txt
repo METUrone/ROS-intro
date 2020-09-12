@@ -197,5 +197,5 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
-add_executable(node1 src/node1.cpp)
+add_executable(node1 src/offb_node.cpp)
 target_link_libraries(node1 ${catkin_LIBRARIES})
