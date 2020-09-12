@@ -20,13 +20,15 @@ int main(int argc, char* argv[]){
     ros::Rate rate(2);
     ROS_INFO_STREAM("Hello, ROS!");
     
+    //our custom message instance
+    meturone_egitim::Dummy msg;
+    
     //while roscore is running or this node is not terminated
     while(ros::ok()){
         //this is executed once
         ROS_WARN_STREAM_ONCE("Incoming arrays!!");
         
-        //our custom message instance
-        meturone_egitim::Dummy msg;
+        
         
         std::vector<int> arr;
         //fill the array randomly 
