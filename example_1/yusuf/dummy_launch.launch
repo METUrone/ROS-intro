@@ -1,0 +1,3 @@
+<launch>
+    <node name="dummy_node" pkg="meturone_egitim" type="dummy_node"/>
+</launch>
