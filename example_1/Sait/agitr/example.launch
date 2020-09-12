@@ -1,0 +1,21 @@
+<launch>
+	<node 
+		pkg="turtlesim"
+		type="turtlesim_node"
+		name="turtlesim"
+		respawn="true"
+	/>
+	<node
+		pkg="turtlesim"
+		type="turtle_teleop_key"
+		name="teleop_key"
+		required="true"
+		
+	/>
+	<node
+		pkg="agitr"
+		type="pose"
+		name="sub_to_pose"
+		output="screen"
+	/>
+</launch>
