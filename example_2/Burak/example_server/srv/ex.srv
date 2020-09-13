@@ -1,0 +1,4 @@
+uint32 n
+int32[] arr
+---
+int32 diff
