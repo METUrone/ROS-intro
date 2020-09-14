@@ -10,11 +10,6 @@ add_service_files(
     RandomArray.srv
 )
 
-add_message_files(
-    FILES
-    Dummy.msg
-)
-
 generate_messages(
     DEPENDENCIES
     std_msgs
