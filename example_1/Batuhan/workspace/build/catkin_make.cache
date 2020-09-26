@@ -1,0 +1,2 @@
+meturone_egitim
+-DCATKIN_DEVEL_PREFIX=/home/tekmen0/meturone_egitim/devel -DCMAKE_INSTALL_PREFIX=/home/tekmen0/meturone_egitim/install -G Unix Makefiles
